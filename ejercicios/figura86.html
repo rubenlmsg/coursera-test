@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+		<title>Ejemplo de formulario sencillo</title>
+	</head>
+	<body>
+		<h3>Formulario muy sencillo</h3>
+
+		<form action="maneja_formulario.php" method="post">
+		<table>
+		<tr>
+		  <td>Escribe tu nombre:</td>
+		</tr>
+		<tr>
+		  <td><input type="text" name="nombre" value="" placeholder="Escribe tu nombre" size="50"/></td>
+		</tr>
+		  <br/>
+		<tr>
+		  <td>Escribe tus apellidos</td>
+		  <br/>
+		</tr>
+		<tr>
+		  <td><input type="text" name="apellidos" value="" placeholder="Escribe tus apellidos" maxlength="100" size="50"/></td>
+		</tr>
+		<tr>
+		  <td>Escribe tu email</td>
+		  <br/>
+		</tr>
+		<tr>
+		  <td><input type="email" name="correo" value="" placeholder="Escribe tu email" maxlength="100" size="50"/></td>
+		</tr>
+		<tr>
+			<td><label for="formato">Formatos para el envio</label></td> <br/>
+		</tr>
+		<tr>
+		  <td><select id="formato" name="formato">
+		    <option value="1">pdf</option>
+		    <option value="2">html</option>
+		    <option value="3">odt</option> 
+		  </select></td>
+		</tr>
+		<tr>
+			<td><label for="temasDeInteres">Temas de interés</label> <br/></td>
+		</tr>
+		<tr>
+		  <td><select multiple="multiple" size="3" id="temasDeInteres" name="temasDeInteres">
+		    <option value="3105">linux</option>
+		    <option value="3106">CSS</option>
+		    <option value="3107">HTML</option>
+		    <option value="3108">usabilidad</option>
+		  </select></td>
+		 </tr>
+		 <tr>
+			<td><label>Cargo que ocupa en la empresa</label></td> <br/>
+		</tr>
+		<tr>
+		  <td><input type="radio" name="cargo" value="jefazo" checked="checked" /> jefazo <br/>
+		  <input type="radio" name="cargo" value="currillo" /> currillo <br/>
+		  <input type="radio" name="cargo" value="ett" /> ett <br/>
+		  <input type="radio" name="cargo" value="becario" /> becario</td>
+		</tr>
+		</table>
+		<input type="reset" value="borrar datos"/>
+		<input type="submit" value="Enviar"/> 
+		</form>
+	</body>
+</html>

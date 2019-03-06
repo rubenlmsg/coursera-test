@@ -1,0 +1,109 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+		<title>Ejemplo de formulario sencillo</title>
+	</head>
+	<body>
+		<h3>Formulario muy sencillo</h3>
+
+		<form action="maneja_formulario.php" method="post">
+		<table>
+		<tr>
+		  <td>Escribe tu nombre:</td>
+		</tr>
+		<tr>
+		  <td><input type="text" name="nombre" value="" placeholder="Escribe tu nombre" size="50"/></td>
+		</tr>
+		  <br/>
+		  <tr>
+			<td><label for="tarjeta">Tipo de tarjeta</label></td> <br/>
+		</tr>
+		<tr>
+		  <td><select id="tarjeta" name="tarjeta">
+		    <option value="1">VISA</option>
+		    <option value="2">Mastercard</option>
+		    <option value="3">otro</option> 
+		  </select></td>
+		</tr>
+		<tr>
+			<td><label for="caducidad"> fecha de caducidad</label></td> 
+		</tr>
+		<tr>	  
+			  <td><select id="caducidad" name="caducidad">
+			    <option value="1">Enero</option>
+			    <option value="2">Febrero</option>
+			    <option value="3">Marzo</option>
+			    <option value="4">Abril</option>
+			    <option value="5">Mayo</option>
+			    <option value="6">Junio</option>
+			    <option value="7">Julio</option>
+			    <option value="8">Agosto</option>
+			    <option value="9">Septiembre</option>
+			    <option value="10">Octubre</option>
+			    <option value="11">Noviembre</option>
+			    <option value="12">Diciembre</option>
+			</select>
+			    de
+			    <input type="text" size="3" maxlength="2" id="caducidad" name="caducidad" /></td>  
+		</tr>
+		<tr>
+		  <td>Unidades a comprar</td>
+		</tr>
+		<tr>
+		  <td><input type="text" name="unidades" value="" placeholder="Unidades" size="5"/></td>
+		</tr>
+		<tr>
+			<td><label for="observaciones">Observaciones</label></td> <br/>
+		</tr>
+		<tr>
+  			<td><textarea name="observaciones" id="observaciones" cols="40" rows="5"></textarea></td>
+  		</tr>
+		<tr>
+		  <td>Entregar en:</td>
+		</tr>
+		<tr>
+		  <td><input type="text" name="direccion" value="" placeholder="direccion" size="50"/></td>
+		</tr>
+		<tr>
+			<td><label for="horario">Horario de entrega</label></td> <br/>
+		</tr>
+		<tr>
+		  <td>de <select id="horario" name="horario">
+		    <option value="1">16:00</option>
+		    <option value="2">17:00</option>
+		    <option value="3">18:00</option> 
+		  </select> a
+		  <select id="horario" name="horario">de
+		    <option value="1">17:00</option>
+		    <option value="2">18:00</option>
+		    <option value="3">19:00</option></td>
+		</tr>
+		<tr>
+			<td><label for="conoce">Como conoce nuestra página web</label>
+		  <select id="conoce" name="conoce">
+		    <option value="amigos">amigos</option>
+		    <option value="articulo">articulo</option>
+		    <option value="google">google</option>
+		    <option value="otro">otro</option>
+		  </select>	</td>	
+		</tr>
+		 <tr>
+			<td><label>Valoración de la web</label></td> <br/>
+		</tr>
+		<tr>
+		  <td><input type="radio" name="valoracion" value="Muy buena" checked="checked" /> Muy buena <br/>
+		  <input type="radio" name="valoracion" value="Buena" /> Buena <br/>
+		  <input type="radio" name="valoracion" value="Normal" /> Normal <br/>
+		  <input type="radio" name="valoracion" value="Mala" /> Mala</td>
+		</tr>
+		  <tr>
+		<td><input name="informacion" type="checkbox" value="direccion"/> Quiere recibir más información
+		<input name="llamar" type="checkbox" value="tecnico"/> Y que le llamemos</td>
+		</tr>
+		</table>
+		<input type="reset" value="borrar datos"/>
+		<input type="submit" value="Enviar"/> 
+		</form>
+	</body>
+</html>

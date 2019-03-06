@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+		<title>Ejemplo de formulario sencillo</title>
+	</head>
+	<body>
+		<h3>Formulario muy sencillo</h3>
+
+		<form action="maneja_formulario.php" method="post">
+		<table>
+		<tr>
+		  <td>Escribe tu nombre:</td>
+		  <td><input type="text" name="nombre" value="" placeholder="Escribe tu nombre" size="50"/></td>
+		</tr>
+		  <br/>
+		<tr>
+		  <td>Escribe tu contraseña:</td>
+		  <td><input type="password" name="contraseña" value="" placeholder="Escribe la contraseña" maxlength="100" size="50"/></td>
+		</tr>
+		
+		<tr>
+		  <td>Puestos de trabajo buscados</td> <br/>
+		</tr>
+		  <tr>
+		<td><input name="puesto_directivo" type="checkbox" value="direccion"/> Dirección
+		<input name="puesto_tecnico" type="checkbox" value="tecnico"/> Técnico
+		<input name="puesto_empleado" type="checkbox" value="empleado"/> Empleado</td>
+		</tr>
+
+		<tr>
+		<td>Sexo</td> <br/>
+		</tr>
+		<tr>
+		<td><input type="radio" name="sexo" value="hombre" checked="checked" /> Hombre</td></tr>
+
+		<tr><td><input type="radio" name="sexo" value="mujer" /> Mujer</td></tr>
+		</tr>
+
+		<input type="hidden" name="url_previa" value="/articulo/primero.html" />
+		
+		<tr><td>Fichero adjunto</td></tr>
+		<tr><td><input type="file" name="adjunto"/></td></tr>
+	<input type="image" name="enviar" src="accept.png"  />
+		<tr>
+		  <td><input type="submit" value="Enviar"/></td>
+		  <td><input type="reset" value="borrar datos"/></td>
+		</tr>
+		</table>
+		</form>
+	</body>
+</html>

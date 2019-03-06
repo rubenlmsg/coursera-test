@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+		<title>Ejemplo de formulario sencillo</title>
+	</head>
+	<body>
+		<h3>Formulario muy sencillo</h3>
+
+		<form action="maneja_formulario.php" method="post">
+		<table>
+		<tr>
+		  <td>Escribe tu nombre:</td>
+		</tr>
+		<tr>
+		  <td><input type="text" name="nombre" value="" placeholder="Escribe tu nombre" size="50"/></td>
+		</tr>
+		  <br/>
+		<tr>
+		  <td>Escribe tus apellidos</td>
+		  <br/>
+		</tr>
+		<tr>
+		  <td><input type="text" name="apellidos" value="" placeholder="Escribe tus apellidos" maxlength="100" size="50"/></td>
+		</tr>
+		<tr>
+		<td>Sexo</td> <br/>
+		</tr>
+		<tr>
+		<td><input type="radio" name="sexo" value="hombre" checked="checked" /> Hombre</td></tr>
+
+		<tr><td><input type="radio" name="sexo" value="mujer" /> Mujer</td></tr>
+		<tr>
+		  <td>Escribe tu email</td>
+		  <br/>
+		</tr>
+		<tr>
+		  <td><input type="email" name="correo" value="" placeholder="Escribe tu email" maxlength="100" size="50"/></td>
+		</tr>
+		<tr>
+			<td><label for="sugerencias">Sugerencias</label></td> <br/>
+		</tr>
+		<tr>
+  			<td><textarea name="sugerencias" id="sugerencias" cols="40" rows="5"></textarea></td>
+  		</tr>
+		</table>
+		<input type="reset" value="borrar datos"/>
+		<input type="submit" value="Enviar"/> 
+		</form>
+	</body>
+</html>
