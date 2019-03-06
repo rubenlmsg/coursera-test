@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+<channel>
+  <title>Ejercicios</title>
+  <link>https://lmrsi.000webhostapp.com/Tarea4_Ruben_Sosa.html</link>
+  <description>Ejercicios de HTML</description>
+  <item>
+    <title>Tarea 1</title>
+    <link>https://lmrsi.000webhostapp.com/index.html</link>
+    <description>Realizacion del ejercicio 1</description>
+  </item>
+  <item>
+    <title>Tarea 2</title>
+    <link>https://lmrsi.000webhostapp.com/index26.html</link>
+    <description>Realización del ejercicio 2</description>
+  </item>
+   <item>
+    <title>Tarea 3</title>
+    <link>https://lmrsi.000webhostapp.com/index38.html</link>
+    <description>Realización del ejercicio 3</description>
+  </item>
+   <item>
+    <title>Tarea 4</title>
+    <link>https://lmrsi.000webhostapp.com/Tarea4_Ruben_Sosa.html</link>
+    <description>Realización del ejercicio 4</description>
+  </item>
+  <item>
+    <title>Tarea 5</title>
+    <link>https://lmrsi.000webhostapp.com/Tarea5_lectores_rss_Ruben_Sosa.html</link>
+    <description>Realización del ejercicio 5</description>
+  </item> 
+  <item>
+    <title>Tarea 6</title>
+    <link>https://lmrsi.000webhostapp.com/tarea6_ruben_sosa/tarea6/Tarea6_ruben_sosa.html</link>
+    <description>Realización del ejercicio 6</description>
+  </item>
+  <item>
+    <title>Tarea 6 parte 2</title>
+    <link>https://lmrsi.000webhostapp.com/index.html</link>
+    <description>Realización del ejercicio 6 parte 2</description>
+  </item>
+   <item>
+    <title>Tarea 7</title>
+    <link>https://lmrsi.000webhostapp.com/figura7_11.html</link>
+    <description>Realización del ejercicio 7_11</description>
+  </item>
+   <item>
+    <title>Tarea 7</title>
+    <link>https://lmrsi.000webhostapp.com/figura7_12.html</link>
+    <description>Realización del ejercicio 7_12</description>
+  </item>
+  <item>
+    <title>Tarea 7</title>
+    <link>https://lmrsi.000webhostapp.com/figura7_13.html</link>
+    <description>Realización del ejercicio 7_13</description>
+  </item>
+  <item>
+    <title>Tarea 7</title>
+    <link>https://lmrsi.000webhostapp.com/tarea7.html</link>
+    <description>Realización del horario</description>
+  </item>
+  <item>
+    <title>Tarea 7</title>
+    <link>https://lmrsi.000webhostapp.com/index.html</link>
+    <description>Realización del index</description>
+  </item>
+  <item>
+    <title>Tarea 7</title>
+    <link>https://lmrsi.000webhostapp.com/feed.xml</link>
+    <description>Realización del feed</description>
+  </item>
+  <item>
+    <title>Tarea 7</title>
+    <link>https://lmrsi.000webhostapp.com/figura7_9.html</link>
+    <description>Realización de tabla elegante</description>
+  </item>
+
+  <item>
+    <title>Tarea 8</title>
+    <link>https://lmrsi.000webhostapp.com/figura8_1.html</link>
+    <description>Realización de 8_1</description>
+  </item>
+  <item>
+    <title>Tarea 8</title>
+    <link>https://lmrsi.000webhostapp.com/figura8_1.html</link>
+    <description>Realización de 8_12</description>
+  </item>
+  <item>
+    <title>Tarea 8</title>
+    <link>https://lmrsi.000webhostapp.com/figura8_17.html</link>
+    <description>Realización de 8_17</description>
+  </item>
+  <item>
+    <title>Tarea 8</title>
+    <link>https://lmrsi.000webhostapp.com/figura8_18.html</link>
+    <description>Realización de 8_18</description>
+  </item>
+  <item>
+    <title>Tarea 8</title>
+    <link>https://lmrsi.000webhostapp.com/figura83.html</link>
+    <description>Realización de 83</description>
+  </item>
+  <item>
+    <title>Tarea 8</title>
+    <link>https://lmrsi.000webhostapp.com/figura84.html</link>
+    <description>Realización de 84</description>
+  </item>
+  <item>
+    <title>Tarea 8</title>
+    <link>https://lmrsi.000webhostapp.com/figura85.html</link>
+    <description>Realización de 85</description>
+  </item>
+  <item>
+    <title>Tarea 8</title>
+    <link>https://lmrsi.000webhostapp.com/figura86.html</link>
+    <description>Realización de 86</description>
+  </item>
+  <item>
+    <title>Tarea 8</title>
+    <link>https://lmrsi.000webhostapp.com/figura87.html</link>
+    <description>Realización de 87</description>
+  </item>
+  <item>
+    <title>Tarea 8</title>
+    <link>https://themusicstation.000webhostapp.com/pagina%20personal.html</link>
+    <description>Realización de formulario para web personal</description>
+  </item>
+</channel>
+
+</rss> 

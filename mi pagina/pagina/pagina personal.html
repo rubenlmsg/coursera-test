@@ -1,0 +1,270 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <title lang="Es">The Music Station</title>
+        <style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Times New Roman, Helvetica, sans-serif;
+}
+
+#the{
+  font-family: Comic Sans, Helvetica, sans-serif;
+  border:3px solid black; margin:5px; padding:8px;
+}
+/* Style the header */
+header {
+  background-color: #336DFF;
+  padding: 25px;
+  text-align: center;
+  font-size: 25px;
+  color: white;
+  border:3px solid black; margin:5px; padding:8px;
+}
+
+#quees{
+  background-color: #005782;
+  padding: 25px;
+  text-align: center;
+  font-size: 25px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 100%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #F9F8AB;
+  padding: 30px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 90%;
+  background-color: #CCFCEB;
+  height: 350px; /* only for demonstration, should be removed */
+}
+
+#Est{
+  float: left;
+  padding: 40px;
+  width: 160%;
+  background-color: #CCFCEB;
+  height: 100px;
+  font-size: 25px; /* only for demonstration, should be removed */
+}
+
+#edwin{
+  float: left;
+  padding: 20px;
+  width: 90%;
+  background-color: #CCFCEB;
+  height: 100px; /* only for demonstration, should be removed */
+}
+
+#guit{
+  float: left;
+  padding: 20px;
+  width: 90%;
+  background-color: #CCFCEB;
+  height: 200px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+    </head>
+    <body>
+    	<header>
+
+        	<h1 id="the" align=center>The Music Station</h1>
+    	
+    	<div id="quees">
+	        <h3 align=center>¿Qué es?</h3>
+	            <p align=center><em>Página dedicada a grupos musicales</em></p>
+	    </div>
+	</header>
+	    <nav>
+	    	<!--indice de la página web-->
+	        <h3 id="indice" align=center>Índice</h3>
+	            <ol>
+	                <li><p><a href="#Es">Estilos</a></p></li>
+	                <li><p><a href="#TM">Thrash Metal</a></p></li>
+	                <li><p><a href="#TG">Tabla de grupos</a></p></li>
+	                <li><p><a href="#MG">Lista de marcas guitarras</a></p></li>
+	                <li><p><a href="#PI">Página de interés</a></p></li>
+	                <li><p><a href="#CO">Tabla de iphones</a></p></li>
+	            </ol>
+	    </nav>
+	    
+	    	<article id="Est">
+	        <h4 id="Es">*Estilos</h4> 
+	        </article>
+	   
+	    <section>
+	   <article>
+	        <h5 id="TM">-Thrash Metal-</h5>
+	            <p>El <acronym title="Thrash Metal">TM</acronym> es un estilo que incluye grupos como <em>Metallica</em> o <em>Slayer</em>.</p>
+	            <blockquote cite="https://es.wikipedia.org/wiki/Thrash_metal">"Subgénero del <acronym title="Heavy Metal">HM</acronym> que se caracteriza generalmente por sus ritmos similares al <strong><em>Speed Metal</em></strong> y al <strong><em>Hardcore Punk</em></strong> en la agresividad y contundencia."</blockquote>     
+	   
+	            <pre id="TG">
+	            Nombre          Vocalista        Guitarrista         Bajista         Bateria
+	           --------------------------------------------------------------------------------
+	            Metallica     James Hetfield     Kirk Hammet     Robert Trujillo   Lars Ulrich
+	            Slayer          Tom Araya        Kerry King         Tom Araya      Paul Bostaph
+	            Pantera        Phil Anselmo     Dimebag Darrell     Rex Brown      Vinnie Paul
+	            Megadeth      Dave Mustaine     Marty Friedman    David Ellefso    Nick Menza
+	            Anthrax        Neil Turbin      Greg D'Angelo       Dan Lilker   Charlie Benante
+	    		</pre>
+	    </article>
+	    <article id="guit">
+	    	<!--Enlaces hacia las páginas de guitarras que usan estos grupos-->
+	        <h5 id="MG">-Marcas de Guitarras-</h5>
+	            <ul>
+	                <li><p><a href="https://www.gibson.com/" target="_blank">Gibson</a></p></li>
+	                <li><p><a href="https://www.deanguitars.com/" target="_blank">Dean</a></p></li>
+	                <li><p><a href="https://shop.fender.com/es-ES/start" target="_blank">Fender</a></p></li>
+	                <li><p><a href="https://www.espguitars.com/" target="_blank">ESP</a></p></li>
+	    		</ul>
+	    </article>
+	</section>
+	    <section>
+	    	<!--Página de mi compañero-->
+	    	<article id="edwin">
+	        	<h6 id="PI">Página de interes</h6>
+	        	<a href="https://proyectoedwin.000webhostapp.com/index.html">Página de Edwin</a>
+	        </article>
+	   <!--Tabla con colores y enlaces en las fotos hacia las páginas de las especificaciones de los teléfonos y en la manzana hacia la página principal de apple-->   
+	 <article>
+    <table id="CO" summary="Tabla comparativa de las características técnicas de los IPhone de última generación">
+
+      <caption>Tabla comparativa de las características técnicas de los IPhone de última generación</caption>
+       <colgroup>
+        <col style="background-color:#83d0a4;"/>
+      </colgroup>
+      <tr style="background-color:#95ffff;">
+        <th><a href="https://www.apple.com/es/" target="_blank"> <img src="../imagenes/apple.png" width="100" height="80"></th></a>
+        
+        <th abbr="Iphone XR" scope="col" colspan="3">
+          <a href="https://www.apple.com/es/iphone-xr/specs/" target="_blank"><img  src="../imagenes/iphonexr1.png" alt="Imagen del iphone xr de 64gb" width="100" height="100" /></a>
+          <a href="https://www.apple.com/es/iphone-xr/specs/" target="_blank"><img href="https://www.apple.com/es/iphone-xr/specs/" src="../imagenes/iphonexr2.png" alt="Imagen del iphone xr de 128gb" width="130" height="95"/></a>
+          <a href="https://www.apple.com/es/iphone-xr/specs/" target="_blank"><img href="https://www.apple.com/es/iphone-xr/specs/" src="../imagenes/iphonexr3.png" alt="Imagen del iphone xr de 256gb" width="100" height="100"/></a>
+          <br/><strong>Iphone XR</strong>
+        </th>
+        <th abbr="Iphone XS" scope="col" colspan="3">
+          <a href="https://www.apple.com/es/iphone-xs/specs/" target="_blank"><img src="../imagenes/iphonexs.png" alt="Imagen del Iphone XS" width="100" height="100" /></a>
+          <br/><strong>Iphone XS</strong>
+        </th>
+        <th abbr="Iphone XS Max" scope="col" colspan="3">
+          <a href="https://www.apple.com/es/iphone-xs/specs/" target="_blank"><img src="../imagenes/iphonexsmax.png" alt="Imagen del Iphone XS Max" width="100" height="100" /></a>
+          <br/><strong>Iphone XS Max</strong>
+        </th>
+      </tr>
+
+      <tr>
+        <th scope="row" abbr="Capacidad">Capacidad de almacenamiento</th>
+          <td>64GB</td>
+          <td>128GB</td>
+          <td>256GB</td>
+          <td>64GB</td>
+          <td>256GB</td>
+          <td>512GB</td>
+          <td>64GB</td>
+          <td>256GB</td>
+          <td>512GB</td>
+        </tr>
+
+      <tr>
+        <th scope="row" abbr="Colores disponibles">Colores</th>
+        <td colspan="3">
+          <img src="imagenes/color_blanco.png" alt="Color blanco" />
+          <img src="imagenes/color_negro.png" alt="Color negro" />
+          <img src="imagenes/color_azul.png" alt="Color azul" />
+          <img src="imagenes/color_rosa.png" alt="Color rosa" />
+        </td>
+        <td colspan="3">
+          <img src="imagenes/color_blanco.png" alt="Color blanco" />
+          <img src="imagenes/color_negro.png" alt="Color negro" />
+          <img src="imagenes/color_rosa.png" alt="Color rosa" />
+        </td>
+        <td colspan="3">
+          <img src="imagenes/color_blanco.png" alt="Color blanco" />
+          <img src="imagenes/color_negro.png" alt="Color negro" />
+          <img src="imagenes/color_rosa.png" alt="Color rosa" />
+        </td>
+      </tr>
+
+      <tr>
+        <th scope="row" abbr="Tamaño de pantalla">Pantalla</th>
+        <td colspan="3">Liquid Retina LCD de 6,1", con resolución de 1792x828 y 326ppp</td>
+        <td colspan="3">Super Retina HD OLED de 5,8", con resolución de 2436x1125 y 458ppp</td>
+        <td colspan="3">Super Retina HD OLED de 6,5", con resolución de 2688x1242 y 458ppp</td>
+      </tr>
+
+      <tr>
+        <th rowspan="1" scope="row" abbr="Procesador">Chip</th>
+        <td rowspan="1" colspan="3">A12 Bionic (Neuronal Engine)</td>
+        <td colspan="3">A12 Bionic (Neuronal Engine)</td>
+        <td colspan="3">A12 Bionic (Neuronal Engine)</td>
+      </tr>
+      <tr>
+        <th rowspan="1" scope="row" abbr="Camara">Cámara</th>
+        <td rowspan="1" colspan="3">De 12 Mpx con gran angular</td>
+        <td colspan="3">De 12 Mpx con gran angular y teleobjetivo</td>
+        <td colspan="3">De 12 Mpx con gran angular y teleobjetivo</td>
+      </tr>
+      
+    </table>
+    </article>
+    <!--Parte en la que se pueden enviar preguntas al administrador de la página-->
+    <article>
+	    <fieldset>
+      <legend>Sección de preguntas</legend>
+
+      <label for="nombre">Nombre</label> <br/>
+      <input type="text" name="nombre" id="nombre" size="50" maxlength="250" />
+
+      <br/><br/>
+
+      <label for="pregunta">Pregunta</label> <br/>
+      <textarea name="pregunta" id="pregunta" cols="40" rows="5"></textarea>
+      <input type="submit" value="Enviar"/> 
+      </fieldset>
+      <!--Enlace al comienzo de la página, en la parte del índice-->
+	        <p><a href="#indice">Índice</a></p>
+	</article> 
+	 </section> 
+    </body>
+</html>
